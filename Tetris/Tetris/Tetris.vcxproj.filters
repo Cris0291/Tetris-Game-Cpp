@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\grid.h">
+      <UniqueIdentifier>{d8ce19b8-4f34-41f8-aa01-1ca840efe938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grid.cpp">
+      <UniqueIdentifier>{cd7ac912-b196-47d6-8abf-6afab174c839}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tetris.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Grid.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\grid.h</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
