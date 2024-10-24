@@ -10,11 +10,12 @@ int main()
     {
         BeginDrawing();
         ClearBackground(darkBlue);
+        
 
         EndDrawing();
 
     }
-
+      
     CloseWindow();
 }
 

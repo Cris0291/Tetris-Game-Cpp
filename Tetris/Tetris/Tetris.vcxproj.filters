@@ -13,11 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\grid.h">
-      <UniqueIdentifier>{d8ce19b8-4f34-41f8-aa01-1ca840efe938}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Grid.cpp">
       <UniqueIdentifier>{cd7ac912-b196-47d6-8abf-6afab174c839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Block.h">
+      <UniqueIdentifier>{bb026647-1f5b-45d1-bbce-c1d5395b6ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grid.h">
+      <UniqueIdentifier>{d8ce19b8-4f34-41f8-aa01-1ca840efe938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Position.cpp">
+      <UniqueIdentifier>{38495fdd-eca8-478d-955b-f68778361874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Position.h">
+      <UniqueIdentifier>{e323cf4d-f248-4025-bbf3-a9382eb38157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Colors.h">
+      <UniqueIdentifier>{4aaf5a9a-a833-4928-991f-91a72fe1174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Colors.cpp">
+      <UniqueIdentifier>{c04d07cb-4483-44c8-b636-11c32df940e7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,10 +42,25 @@
     <ClCompile Include="Grid.cpp">
       <Filter>Source Files\Grid.cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\Position.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Source Files\Colors.cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Grid.h">
-      <Filter>Header Files\grid.h</Filter>
+      <Filter>Header Files\Grid.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files\Block.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\Position.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files\Colors.h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

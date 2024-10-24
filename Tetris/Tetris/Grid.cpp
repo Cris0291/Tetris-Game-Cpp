@@ -6,6 +6,7 @@ Grid::Grid() {
 	m_numCols = 10;
 	m_cellSize = 30;
 	Initialize();
+	colors = GetCellColors();
 }
 
 void Grid::Initialize() {
@@ -36,4 +37,13 @@ std::vector<Color> Grid::GetCellColors() {
 	Color blue = { 13, 64, 216, 255 };
 
 	return {darkGrey, green, red, orange, yellow, purple, cyan, blue};
+}   
+
+void Grid::Draw() {
+	for (int row = 0; row < m_numRows; row++) {
+		for (int column = 0; column < m_numCols; column++) {
+			int cellValue = grid[row][column];
+			DrawRectangle(column * m_cellSize +1, row * m_cellSize + 1, m_cellSize - 1, m_cellSize - 1, colors[cellValue]);
+		}
+	}
 }
