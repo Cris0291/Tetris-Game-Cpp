@@ -34,6 +34,12 @@
     <Filter Include="Source Files\Colors.cpp">
       <UniqueIdentifier>{c04d07cb-4483-44c8-b636-11c32df940e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Block.cpp">
+      <UniqueIdentifier>{c7012b2a-bb14-42b2-9147-f1542ca1fd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blocks.cpp">
+      <UniqueIdentifier>{7a964ca5-acc3-42ff-ade0-76f83748b57c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tetris.cpp">
@@ -47,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="Colors.cpp">
       <Filter>Source Files\Colors.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Block.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocks.cpp">
+      <Filter>Source Files\Blocks.cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
