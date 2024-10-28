@@ -40,6 +40,12 @@
     <Filter Include="Source Files\Blocks.cpp">
       <UniqueIdentifier>{7a964ca5-acc3-42ff-ade0-76f83748b57c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Game.h">
+      <UniqueIdentifier>{df035128-28ce-4180-a7ab-f9c309bcdcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game.cpp">
+      <UniqueIdentifier>{bcaa0695-ba3f-4d6c-8a8b-5ebfcb3722cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tetris.cpp">
@@ -60,6 +66,9 @@
     <ClCompile Include="Blocks.cpp">
       <Filter>Source Files\Blocks.cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game.cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Grid.h">
@@ -73,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="Colors.h">
       <Filter>Header Files\Colors.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game.h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
